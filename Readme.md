@@ -1,22 +1,11 @@
 <a name="readme-top"></a>
 
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/DevelopersLeague/EtherDocs/blob/main/Readme.md">
-    <img src="https://user-images.githubusercontent.com/56788568/231415603-6ba5f1a4-8332-4e4b-8e33-b314fdbb6b71.png" alt="Logo" width="" height="80">
-  </a>
+<h1 align="center" >DCentDocs</h1>
 
 
   <p align="center">
     A Student Document Management System based on Ethereum Blockchain
     <br />
-    <a href="https://github.com/DevelopersLeague/EtherDocs/blob/main/Readme.md"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://youtu.be/B_44aJ9hh6U" target="_blank"> Demo </a>
-    
   </p>
 </div>
 
@@ -45,42 +34,33 @@
 
 ## Contact
 
-- Do you want **project report and slides** along with the **local setup**? then contact [here](https://www.linkedin.com/in/shyrenmore/)
 - Don't forget to star ⭐ the repo
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<p align="center">
 
+DCentDocs is a project that aims to implement an efficient anti-forgery mechanism for academic documents, such as mark sheets, transcripts, diplomas, and other certificates. The goal is to ensure the authenticity of academic documents, reducing the incidence of counterfeit certificates, and saving time and financial resources for all parties involved in document verification.
 
-https://user-images.githubusercontent.com/56788568/232264163-0fda63cf-b204-43a2-ac7e-ab7e82a53ad8.mp4
-
-
-</p> 
-
-
-Etherdocs is a project that aims to implement an efficient anti-forgery mechanism for academic documents, such as mark sheets, transcripts, diplomas, and other certificates. The goal is to ensure the authenticity of academic documents, reducing the incidence of counterfeit certificates, and saving time and financial resources for all parties involved in document verification.
-
-The solution proposed by Etherdocs revolves around three roles or entities: **an Issuer, a Verifier, and a Student**. 
+The solution proposed by DCentDocs revolves around three roles or entities: **an Issuer, a Verifier, and a Student**. 
 * The issuer is the authority that creates and issues the electronic version of the certificate, eg: A university issuing graduating certificates
 * Verifier is the potential employer or any person who wants to verify the authenticity of the certificate provided by the student, eg: A potential employer doing background check. 
 * Finally, the student is the recipient of the certificate and can only view the documents issued to him.
 
- Etherdocs is a project that provides an efficient anti-forgery mechanism for academic documents. By using a combination of blockchain, IPFS, and hash functions, the authenticity of the certificate can be ensured, reducing the incidence of counterfeit certificates and saving time and financial resources for all parties involved in document verification.
+ DCentDocs is a project that provides an efficient anti-forgery mechanism for academic documents. By using a combination of blockchain, IPFS, and hash functions, the authenticity of the certificate can be ensured, reducing the incidence of counterfeit certificates and saving time and financial resources for all parties involved in document verification.
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Features
 
-- **Security:** By using blockchain, IPFS, and hash functions, Etherdocs provides a highly secure platform for storing and verifying academic documents. The blockchain is tamper-proof and immutable, ensuring that the data stored on it cannot be modified or deleted. The use of hash functions ensures that any modification to the document will be detected, making it difficult for counterfeit certificates to be created.
-- **Efficiency:** Etherdocs streamlines the process of verifying academic documents, saving time and resources for all parties involved. Verifiers can easily access the certificates and compare the hash values, eliminating the need for manual verification.
-- **Accessibility:** Etherdocs makes it easy for students to access and share their academic documents. The use of IPFS allows for quick and easy access to the documents, while the UUID ensures that the documents are easily identifiable and verifiable.
+- **Security:** By using blockchain, IPFS, and hash functions, DCentDocs provides a highly secure platform for storing and verifying academic documents. The blockchain is tamper-proof and immutable, ensuring that the data stored on it cannot be modified or deleted. The use of hash functions ensures that any modification to the document will be detected, making it difficult for counterfeit certificates to be created.
+- **Efficiency:** DCentDocs streamlines the process of verifying academic documents, saving time and resources for all parties involved. Verifiers can easily access the certificates and compare the hash values, eliminating the need for manual verification.
+- **Accessibility:** DCentDocs makes it easy for students to access and share their academic documents. The use of IPFS allows for quick and easy access to the documents, while the UUID ensures that the documents are easily identifiable and verifiable.
 - **Transparency:** The use of blockchain ensures transparency and accountability in the issuance and verification of academic documents. All data related to the certificate and the IPFS link are stored on the blockchain, providing a transparent and auditable record of the entire process.
-- **Universality:** Etherdocs can be used by any educational institution, making it a universal solution for ensuring the authenticity of academic documents. The platform can also be used by potential employers, government agencies, or any organization that needs to verify the authenticity of academic documents.
+- **Universality:** DCentDocs can be used by any educational institution, making it a universal solution for ensuring the authenticity of academic documents. The platform can also be used by potential employers, government agencies, or any organization that needs to verify the authenticity of academic documents.
 
-The Etherdocs project is needed because the current system of issuing and verifying academic documents is prone to fraud and counterfeiting. Without an efficient anti-forgery mechanism, it is difficult to ensure the authenticity of academic documents, leading to wasted time and resources for all parties involved. Etherdocs provides a secure, efficient, and transparent solution for verifying academic documents, ensuring that the information on the certificate is accurate and trustworthy.
+The DCentDocs project is needed because the current system of issuing and verifying academic documents is prone to fraud and counterfeiting. Without an efficient anti-forgery mechanism, it is difficult to ensure the authenticity of academic documents, leading to wasted time and resources for all parties involved. DCentDocs provides a secure, efficient, and transparent solution for verifying academic documents, ensuring that the information on the certificate is accurate and trustworthy.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,7 +118,7 @@ In the event of a human error while issuing a certificate, the issuer can use th
 
 The invalidate button can only be accessed by the issuer and is not visible to the student or verifier. This ensures that the issuer has complete control over the validity of the certificates they issue and can take action to correct any errors or revoke certificates that have been issued in error.
 
-By providing a mechanism for revoking certificates, the Etherdocs system ensures the integrity of the certification process and reduces the risk of fraudulent or erroneous certificates being used for verification.
+By providing a mechanism for revoking certificates, the DCentDocs system ensures the integrity of the certification process and reduces the risk of fraudulent or erroneous certificates being used for verification.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -190,7 +170,7 @@ By providing a mechanism for revoking certificates, the Etherdocs system ensures
 
 14. You can use the site, congrats 🎉
 
-15. In case of any other errors, kindly create an [issue here](https://github.com/DevelopersLeague/EtherDocs/issues) or contact [here](https://www.linkedin.com/in/shyrenmore/)
+15. In case of any other errors, kindly create an [issue here](https://github.com/DevelopersLeague/DCentDocs/issues) or contact [here](https://www.linkedin.com/in/shyrenmore/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
@@ -199,22 +179,13 @@ By providing a mechanism for revoking certificates, the Etherdocs system ensures
 
 [GNU General Public License v3.0](/LICENSE)
 
-## Authors
+## Developers
 
-**Project Guide**
-
-- Dr. Tasneem Mirza
-  - [LinkedIn](https://www.linkedin.com/in/tasneem-mirza-91513338/) • [Mail](mailto:tmm1207@gmail.com)
-
-**Developers**
-
-- Aniket More
-    - [LinkedIn](https://www.linkedin.com/in/aniket-more-2b97571b1/) • [Mail](mailto:aniketavinashmore33@gmail.com) 
-- Chirag Mahajan
-    - [Linkedin](https://www.linkedin.com/in/chirag-mahajan-b09144137/) • [Mail](mailto:chiragmahajan3101@gmail.com)
-- Shyren More
-    - [LinkedIn](https://www.linkedin.com/in/shyrenmore/) • [Mail](mailto:shyren.more30@gmail.com)
-- Shubhankar Mote
-    - [LinkedIn](https://www.linkedin.com/in/shubhankarmote/) • [Mail](mailto:shubhu.mote@gmail.com)
+- Kumarapu Hemram
+    
+- Achanta SriRam Surya
+   
+- Sydala Anjaneya Pratap
+   
     
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
